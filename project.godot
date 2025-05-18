@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Unmuted"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://Assets/icon.svg"
+config/icon="res://Assets/Textures/Sprites/icon.svg"
 
 [dotnet]
 
