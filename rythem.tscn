@@ -1,12 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://faxxchuyys61"]
+[gd_scene load_steps=7 format=3 uid="uid://faxxchuyys61"]
 
 [ext_resource type="Script" uid="uid://by3p2to3armam" path="res://number_handle.gd" id="1_fbktj"]
 [ext_resource type="Texture2D" uid="uid://b6xjn3e8ymebx" path="res://Assets/Textures/Sprites/icon.svg" id="1_ig6wt"]
+[ext_resource type="Texture2D" uid="uid://dnhnyclxi3say" path="res://Assets/Textures/Sprites/Test Text Box.png" id="3_pobq1"]
+[ext_resource type="Script" uid="uid://hfqco6rneekg" path="res://spawner.gd" id="4_77qaa"]
+[ext_resource type="PackedScene" uid="uid://y3a1de07l5et" path="res://Scenes/chord.tscn" id="5_mf14j"]
+[ext_resource type="Script" uid="uid://b17qn1j68m6x8" path="res://mover.gd" id="6_87n01"]
 
-[node name="Node2D" type="Node2D"]
+[node name="rythem" type="Node2D"]
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="Node2D" type="Node2D" parent="." node_paths=PackedStringArray("SS")]
 script = ExtResource("1_fbktj")
+pressed = ExtResource("3_pobq1")
+released = ExtResource("1_ig6wt")
+SS = [NodePath("1"), NodePath("2"), NodePath("3"), NodePath("4")]
 
 [node name="1" type="Sprite2D" parent="Node2D"]
 position = Vector2(101, 69)
@@ -24,3 +31,19 @@ texture = ExtResource("1_ig6wt")
 [node name="4" type="Sprite2D" parent="Node2D"]
 position = Vector2(116, 532)
 texture = ExtResource("1_ig6wt")
+
+[node name="Spawner" type="Node2D" parent="." node_paths=PackedStringArray("mover", "timer")]
+position = Vector2(1152, 120)
+script = ExtResource("4_77qaa")
+chord = ExtResource("5_mf14j")
+mover = NodePath("mover")
+timer = NodePath("Timer")
+
+[node name="mover" type="Node2D" parent="Spawner"]
+position = Vector2(2, 135)
+script = ExtResource("6_87n01")
+
+[node name="Timer" type="Timer" parent="Spawner"]
+autostart = true
+
+[connection signal="timeout" from="Spawner/Timer" to="Spawner" method="_on_timer_timeout"]

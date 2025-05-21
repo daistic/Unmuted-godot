@@ -1,37 +1,30 @@
 extends Node
-var S1
-var S2
-var S3
-var S4
-var value:int = 0
-func _ready() -> void:
-	S1 = get_node("1")
-	S2 = get_node("2")
-	S3 = get_node("3")
-	S4 = get_node("4")
+@export var pressed = Texture
+@export var released = Texture
+@export var SS:Array[Node]
+var value:Array[bool]=[false,false,false,false]
 func _input(event):
 	if event.is_action_pressed("1"):
-		S1.texture=load("res://Assets/Textures/Sprites/Test Text Box.png")
-		value+=1000
+		SS[0].texture=pressed
+		value[0]=true
 	if event.is_action_released("1"):
-		S1.texture=load("res://Assets/Textures/Sprites/icon.svg")
-		value-=1000
+		SS[0].texture=released
+		value[0]=false
 	if event.is_action_pressed("2"):
-		S2.texture=load("res://Assets/Textures/Sprites/Test Text Box.png")
-		value+=100
+		SS[1].texture=pressed
+		value[1]=true
 	if event.is_action_released("2"):
-		S2.texture=load("res://Assets/Textures/Sprites/icon.svg")
-		value-=100
+		SS[1].texture=released
+		value[1]=false
 	if event.is_action_pressed("3"):
-		S3.texture=load("res://Assets/Textures/Sprites/Test Text Box.png")
-		value+=10
+		SS[2].texture=pressed
+		value[2]=true
 	if event.is_action_released("3"):
-		S3.texture=load("res://Assets/Textures/Sprites/icon.svg")
-		value-=10
+		SS[2].texture=released
+		value[2]=false
 	if event.is_action_pressed("4"):
-		S4.texture=load("res://Assets/Textures/Sprites/Test Text Box.png")
-		value+=1
+		SS[3].texture=pressed
+		value[3]=true
 	if event.is_action_released("4"):
-		S4.texture=load("res://Assets/Textures/Sprites/icon.svg")
-		value-=1
-	print(value)
+		SS[3].texture=released
+		value[3]=false
