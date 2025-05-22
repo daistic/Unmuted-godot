@@ -3,9 +3,9 @@
 [ext_resource type="Script" uid="uid://by3p2to3armam" path="res://Scripts/number_handle.gd" id="1_fbktj"]
 [ext_resource type="Texture2D" uid="uid://b6xjn3e8ymebx" path="res://Assets/Textures/Sprites/icon.svg" id="1_ig6wt"]
 [ext_resource type="Texture2D" uid="uid://dnhnyclxi3say" path="res://Assets/Textures/Sprites/Test Text Box.png" id="3_pobq1"]
-[ext_resource type="Script" uid="uid://hfqco6rneekg" path="res://spawner.gd" id="4_77qaa"]
+[ext_resource type="Script" uid="uid://hfqco6rneekg" path="res://Scripts/spawner.gd" id="4_77qaa"]
 [ext_resource type="PackedScene" uid="uid://y3a1de07l5et" path="res://Scenes/chord.tscn" id="5_mf14j"]
-[ext_resource type="Script" uid="uid://b17qn1j68m6x8" path="res://mover.gd" id="6_87n01"]
+[ext_resource type="Script" uid="uid://b17qn1j68m6x8" path="res://Scripts/mover.gd" id="6_87n01"]
 
 [node name="rythem" type="Node2D"]
 
