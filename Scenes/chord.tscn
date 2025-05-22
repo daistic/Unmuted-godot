@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://y3a1de07l5et"]
+
+[ext_resource type="Script" uid="uid://cm4ad7pwk7t66" path="res://Scenes/control.gd" id="1_dt0i8"]
+[ext_resource type="Texture2D" uid="uid://dnhnyclxi3say" path="res://Assets/Textures/Sprites/Test Text Box.png" id="2_nufum"]
+
+[node name="Chord" type="Node2D"]
+position = Vector2(-3, 0)
+
+[node name="control" type="Node2D" parent="."]
+script = ExtResource("1_dt0i8")
+
+[node name="1" type="Sprite2D" parent="control"]
+texture = ExtResource("2_nufum")
+
+[node name="2" type="Sprite2D" parent="control"]
+texture = ExtResource("2_nufum")
+offset = Vector2(0, 50)
+
+[node name="3" type="Sprite2D" parent="control"]
+position = Vector2(-1, 0)
+texture = ExtResource("2_nufum")
+offset = Vector2(0, 100)
+
+[node name="4" type="Sprite2D" parent="control"]
+texture = ExtResource("2_nufum")
+offset = Vector2(0, 150)
