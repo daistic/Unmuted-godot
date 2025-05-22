@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://cvqofpicoxtxg"]
+[gd_scene load_steps=4 format=3 uid="uid://cvqofpicoxtxg"]
 
 [ext_resource type="Texture2D" uid="uid://dnhnyclxi3say" path="res://Assets/Textures/Sprites/Test Text Box.png" id="1_nwibb"]
+[ext_resource type="Script" uid="uid://hyxqa6jwr0xa" path="res://Scripts/text_box.gd" id="1_ot2p7"]
 [ext_resource type="FontFile" uid="uid://bstkwbm7e5q0u" path="res://Assets/Textures/Fonts/RockSalt-Regular.ttf" id="2_0kxgl"]
 
-[node name="Text Box" type="MarginContainer"]
-offset_right = 126.0
-offset_bottom = 65.0
+[node name="TextBox" type="MarginContainer"]
+offset_right = 32.0
+offset_bottom = 58.0
+script = ExtResource("1_ot2p7")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
 layout_mode = 2
@@ -18,16 +20,19 @@ patch_margin_bottom = 16
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 2
-theme_override_constants/margin_left = 24
+theme_override_constants/margin_left = 36
 theme_override_constants/margin_top = 24
-theme_override_constants/margin_right = 24
-theme_override_constants/margin_bottom = 12
+theme_override_constants/margin_right = 36
+theme_override_constants/margin_bottom = 24
 
 [node name="Label" type="Label" parent="MarginContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_0kxgl")
-theme_override_font_sizes/font_size = 46
-text = "aku ingin main gitar
-tolong ajarkan !!!"
+theme_override_font_sizes/font_size = 24
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="LetterDisplayTimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="LetterDisplayTimer" to="." method="_on_letter_display_timer_timeout"]

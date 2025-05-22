@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0k857mgqbvxw"]
+
+[ext_resource type="Script" uid="uid://bx07l33aw0ehw" path="res://Scripts/test_dialog_node.gd" id="1_iukft"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_iukft")
+lines = Array[String](["Guitar", "Bass", "Vocal", "Drum"])
