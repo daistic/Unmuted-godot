@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://cw0hm42gdyh2p"]
+
+[ext_resource type="Texture2D" uid="uid://dctu1fsh0nw8e" path="res://Assets/Textures/Sprites/Character Placeholder.png" id="1_b5x2e"]
+[ext_resource type="Script" uid="uid://crgq8j13f0uje" path="res://Scripts/npc.gd" id="1_c8tqv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c8tqv"]
+atlas = ExtResource("1_b5x2e")
+region = Rect2(0, 0, 112, 133)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m7bvo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c8tqv")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_b5x2e"]
+
+[node name="NPC" type="Area3D"]
+script = ExtResource("1_c8tqv")
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.129149, 0)
+modulate = Color(0.928347, 0.928262, 7.70092e-07, 1)
+billboard = 1
+texture_filter = 0
+sprite_frames = SubResource("SpriteFrames_m7bvo")
+animation = &"Idle"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("BoxShape3D_b5x2e")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

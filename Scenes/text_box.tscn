@@ -5,8 +5,8 @@
 [ext_resource type="FontFile" uid="uid://bstkwbm7e5q0u" path="res://Assets/Textures/Fonts/RockSalt-Regular.ttf" id="2_0kxgl"]
 
 [node name="TextBox" type="MarginContainer"]
-offset_right = 32.0
-offset_bottom = 58.0
+offset_right = 73.0
+offset_bottom = 106.0
 script = ExtResource("1_ot2p7")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]

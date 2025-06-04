@@ -1,5 +1,7 @@
 extends Area3D
 
+class_name Player
+
 @export var speed: float = 1
 
 @onready var animated_sprite_3d: AnimatedSprite3D = $AnimatedSprite3D

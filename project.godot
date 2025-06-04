@@ -17,7 +17,7 @@ config/icon="res://Assets/Textures/Sprites/icon.svg"
 
 [autoload]
 
-DialogManager="*res://Scripts/dialog_manager.gd"
+DialogManager="*res://Globals/dialog_manager.gd"
 
 [display]
 

@@ -1,6 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://cn5xlhwxyjh8d"]
+[gd_scene load_steps=7 format=3 uid="uid://cn5xlhwxyjh8d"]
 
+[ext_resource type="PackedScene" uid="uid://cnef1fmxgotru" path="res://Scenes/Camera.tscn" id="1_c5iac"]
 [ext_resource type="PackedScene" uid="uid://c1ne5dxq3hy0e" path="res://Scenes/Player.tscn" id="1_ji2nh"]
+[ext_resource type="PackedScene" uid="uid://cw0hm42gdyh2p" path="res://Scenes/Npc.tscn" id="2_xbi5u"]
+[ext_resource type="Resource" uid="uid://bexecad6781f3" path="res://Assets/Dialog Resources/test_resource.tres" id="3_sdubp"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7wnle"]
 shading_mode = 0
@@ -15,12 +18,18 @@ transform = Transform3D(1.86084, 0, 0, 0, 1, 0, 0, 0, 1.84303, 0, 0, 0)
 material_override = SubResource("StandardMaterial3D_7wnle")
 mesh = SubResource("PlaneMesh_7wnle")
 
-[node name="Camera3D" type="Camera3D" parent="."]
+[node name="Camera3D" parent="." instance=ExtResource("1_c5iac")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0354604, 0.34881, 2.1066)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.835403, -0.0723006, 0.544861, -0.0132532, 0.988372, 0.151473, -0.549477, -0.133762, 0.824731, 1.28541, 1.07877, 2.314)
 
 [node name="Player" parent="." instance=ExtResource("1_ji2nh")]
-transform = Transform3D(0.99986, 0.0167496, 0.000399699, -0.0167544, 0.999575, 0.023853, 0, -0.0238564, 0.999716, 0, 0.704878, 0.974783)
+transform = Transform3D(0.99986, 0.0167496, 0.000399699, -0.0167544, 0.999575, 0.023853, 0, -0.0238564, 0.999716, -0.635579, 0.324606, 0.974783)
 speed = 1.0
+metadata/_edit_group_ = true
+
+[node name="NPC" parent="." instance=ExtResource("2_xbi5u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.633443, 0.39302, 0.740814)
+lines = ExtResource("3_sdubp")
+text_box_offset = Vector2(0, -50)
