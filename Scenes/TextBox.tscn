@@ -1,0 +1,52 @@
+[gd_scene load_steps=5 format=3 uid="uid://4tficuq7g8p1"]
+
+[ext_resource type="Texture2D" uid="uid://dnhnyclxi3say" path="res://Assets/Textures/Sprites/Test Text Box.png" id="1_p7q1j"]
+[ext_resource type="Script" uid="uid://r87cyeo0mdfx" path="res://Scripts/TextBox.gd" id="1_ui8g0"]
+[ext_resource type="FontFile" uid="uid://byt8l62m22mva" path="res://Assets/Textures/Fonts/Caveat-VariableFont_wght.ttf" id="2_lgpka"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ui8g0"]
+font = ExtResource("2_lgpka")
+font_size = 40
+
+[node name="TextBox" type="NinePatchRect"]
+custom_minimum_size = Vector2(750, 200)
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -375.0
+offset_top = -200.0
+offset_right = 375.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 4
+size_flags_vertical = 8
+texture = ExtResource("1_p7q1j")
+region_rect = Rect2(16, 16, 16, 16)
+script = ExtResource("1_ui8g0")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="LineLabel" type="Label" parent="MarginContainer"]
+custom_minimum_size = Vector2(500, 100)
+layout_mode = 2
+label_settings = SubResource("LabelSettings_ui8g0")
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="TypingTimer" type="Timer" parent="."]
+wait_time = 0.05
+one_shot = true
+
+[connection signal="timeout" from="TypingTimer" to="." method="_on_typing_timer_timeout"]

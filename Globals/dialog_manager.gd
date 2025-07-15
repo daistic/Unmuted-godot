@@ -1,6 +1,6 @@
 extends Node
 
-const TEXT_BOX_SCENE: PackedScene = preload("res://Scenes/text_box.tscn")
+#const TEXT_BOX_SCENE: PackedScene = preload("res://Scenes/text_box.tscn")
 
 var dialog_lines: Array[String] = []
 var current_line_index = 0

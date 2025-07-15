@@ -15,10 +15,6 @@ run/main_scene="res://Scenes/rythem.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://Assets/Textures/Sprites/icon.svg"
 
-[autoload]
-
-DialogManager="*res://Globals/dialog_manager.gd"
-
 [display]
 
 window/stretch/mode="canvas_items"
@@ -30,6 +26,7 @@ project/assembly_name="Unmuted"
 [editor]
 
 naming/scene_name_casing=1
+naming/script_name_casing=1
 
 [input]
 
