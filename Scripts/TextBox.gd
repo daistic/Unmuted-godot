@@ -1,35 +1,37 @@
-extends NinePatchRect
+extends TextureRect
 
 class_name TextBox
 
-@onready var line_label: Label = $MarginContainer/LineLabel
 @onready var typing_timer: Timer = $TypingTimer
+@onready var speaker_label: Label = $MarginContainer/VBoxContainer/SpeakerLabel
+@onready var line_label: Label = $MarginContainer/VBoxContainer/LineLabel
 
-var text: String = ""
+var text: String = " "
 var letter_index: int = 0
-var finished_displaying: bool = true
+var is_typing: bool = false
 
-func start_display(new_text: String) -> void:
-	line_label.text = ""
+func start_typing(new_text: String, new_speaker: String = "") -> void:
+	speaker_label.text = new_speaker
 	text = new_text
+	line_label.text = ""
 	letter_index = 0
-	finished_displaying = false
-	_display_text()
+	is_typing = true
+	_type_text()
 
-func _display_text() -> void:
+func _type_text() -> void:
 	line_label.text += text[letter_index]
 	letter_index += 1
 	
 	if letter_index >= text.length():
-		finish_display()
-		return
-	
-	typing_timer.start()
+		finish_typing()
+	else:
+		typing_timer.start()
 
-func finish_display() -> void:
-	typing_timer.stop()
-	finished_displaying = true
+func finish_typing() -> void:
 	line_label.text = text
+	is_typing = false
+	typing_timer.stop()
+	SignalHub.emit_finished_typing()
 
 func _on_typing_timer_timeout() -> void:
-	_display_text()
+	_type_text()

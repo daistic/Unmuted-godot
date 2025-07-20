@@ -2,12 +2,13 @@ extends Resource
 
 class_name DialogStruct
 
-@export var speaker: PackedScene
+@export var character: PackedScene
 @export var line: String
-@export var event: dialog_event
+@export var animation: animation_event
 
-enum dialog_event{
+enum animation_event {
 	NONE,
+	TRANSITION,
 	ENTER,
 	EXIT
 }

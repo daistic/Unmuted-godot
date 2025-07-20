@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://byt8l62m22mva"
-path="res://.godot/imported/Caveat-VariableFont_wght.ttf-b536a49a2f4210d33dfc3e41ea71d636.fontdata"
+uid="uid://b1tyix223y7ee"
+path="res://.godot/imported/Lexend-Medium.ttf-7beabe590434a3123fa3316cb1bb7de9.fontdata"
 
 [deps]
 
-source_file="res://Assets/Textures/Fonts/Caveat-VariableFont_wght.ttf"
-dest_files=["res://.godot/imported/Caveat-VariableFont_wght.ttf-b536a49a2f4210d33dfc3e41ea71d636.fontdata"]
+source_file="res://Assets/Textures/Fonts/Lexend-Medium.ttf"
+dest_files=["res://.godot/imported/Lexend-Medium.ttf-7beabe590434a3123fa3316cb1bb7de9.fontdata"]
 
 [params]
 

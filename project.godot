@@ -15,6 +15,10 @@ run/main_scene="res://Scenes/rythem.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://Assets/Textures/Sprites/icon.svg"
 
+[autoload]
+
+SignalHub="*res://Globals/SignalHub.gd"
+
 [display]
 
 window/stretch/mode="canvas_items"

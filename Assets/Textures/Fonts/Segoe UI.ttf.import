@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://dib2keatpm0a3"
-path="res://.godot/imported/BASKE1.ttf-978ceff4c70e7f77f144a4afa90f1a85.fontdata"
+uid="uid://c2ejed0jtgq71"
+path="res://.godot/imported/Segoe UI.ttf-3c55036ac6502bb722e961b4d564a5bb.fontdata"
 
 [deps]
 
-source_file="res://Assets/Textures/Fonts/BASKE1.ttf"
-dest_files=["res://.godot/imported/BASKE1.ttf-978ceff4c70e7f77f144a4afa90f1a85.fontdata"]
+source_file="res://Assets/Textures/Fonts/Segoe UI.ttf"
+dest_files=["res://.godot/imported/Segoe UI.ttf-3c55036ac6502bb722e961b4d564a5bb.fontdata"]
 
 [params]
 

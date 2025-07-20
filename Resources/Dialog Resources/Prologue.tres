@@ -1,21 +1,32 @@
-[gd_resource type="Resource" script_class="DialogResource" load_steps=5 format=3 uid="uid://by4aarqykqnn2"]
+[gd_resource type="Resource" script_class="DialogResource" load_steps=7 format=3 uid="uid://by4aarqykqnn2"]
 
 [ext_resource type="Script" uid="uid://ceocnji7crsou" path="res://Scripts/Resources Class/DialogStruct.gd" id="1_nchow"]
+[ext_resource type="PackedScene" uid="uid://b3f6omeh2guk5" path="res://Scenes/MainCharacter.tscn" id="2_3vetm"]
 [ext_resource type="Script" uid="uid://cxlqo3oyg4i5x" path="res://Scripts/Resources Class/DialogResource.gd" id="2_al3bg"]
+
+[sub_resource type="Resource" id="Resource_gi2g8"]
+script = ExtResource("1_nchow")
+character = ExtResource("2_3vetm")
+line = " "
+animation = 2
+metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_nchow"]
 script = ExtResource("1_nchow")
-line = "...hmm.."
-event = 0
+character = ExtResource("2_3vetm")
+line = "...hmm....."
+animation = 0
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_al3bg"]
 script = ExtResource("1_nchow")
+character = ExtResource("2_3vetm")
 line = "tutorial... main.. gitar....."
-event = 0
+animation = 0
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [resource]
 script = ExtResource("2_al3bg")
-dialogs = Array[ExtResource("1_nchow")]([SubResource("Resource_nchow"), SubResource("Resource_al3bg")])
+episode_name = ""
+dialogs = Array[ExtResource("1_nchow")]([SubResource("Resource_gi2g8"), SubResource("Resource_nchow"), SubResource("Resource_al3bg")])
 metadata/_custom_type_script = "uid://cxlqo3oyg4i5x"

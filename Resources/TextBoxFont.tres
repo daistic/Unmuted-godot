@@ -1,0 +1,7 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://ggev7xuxhj1t"]
+
+[ext_resource type="FontFile" uid="uid://c2ejed0jtgq71" path="res://Assets/Textures/Fonts/Segoe UI.ttf" id="1_etl5x"]
+
+[resource]
+font = ExtResource("1_etl5x")
+font_size = 26
