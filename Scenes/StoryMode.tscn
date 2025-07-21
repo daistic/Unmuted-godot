@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://b1m3ndaqqkepk"]
+[gd_scene load_steps=5 format=3 uid="uid://b1m3ndaqqkepk"]
 
 [ext_resource type="Script" uid="uid://ch4jckuyvefhm" path="res://Scripts/StoryMode.gd" id="1_vhp66"]
 [ext_resource type="Resource" uid="uid://by4aarqykqnn2" path="res://Resources/Dialog Resources/Prologue.tres" id="2_o7qf0"]
 [ext_resource type="PackedScene" uid="uid://4tficuq7g8p1" path="res://Scenes/TextBox.tscn" id="2_uul7y"]
+[ext_resource type="PackedScene" uid="uid://coj871r26gsk2" path="res://Scenes/EpisodeName.tscn" id="4_qqcvm"]
 
 [node name="StoryMode" type="Control"]
 layout_mode = 3
@@ -43,5 +44,8 @@ size_flags_horizontal = 1
 [node name="InputBufferTimer" type="Timer" parent="."]
 wait_time = 0.75
 one_shot = true
+
+[node name="EpisodeName" parent="." instance=ExtResource("4_qqcvm")]
+layout_mode = 0
 
 [connection signal="timeout" from="InputBufferTimer" to="." method="_on_input_buffer_timer_timeout"]
