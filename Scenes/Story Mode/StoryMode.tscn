@@ -1,0 +1,57 @@
+[gd_scene load_steps=5 format=3 uid="uid://b1m3ndaqqkepk"]
+
+[ext_resource type="Script" uid="uid://ch4jckuyvefhm" path="res://Scripts/StoryMode/StoryMode.gd" id="1_6cxrn"]
+[ext_resource type="Resource" uid="uid://d3jb3o2mdl0m1" path="res://Resources/Dialog Resources/Test.tres" id="2_dmb0t"]
+[ext_resource type="PackedScene" uid="uid://4tficuq7g8p1" path="res://Scenes/Story Mode/TextBox.tscn" id="3_hucy4"]
+[ext_resource type="PackedScene" uid="uid://coj871r26gsk2" path="res://Scenes/Story Mode/EpisodeName.tscn" id="4_kv2re"]
+
+[node name="StoryMode" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6cxrn")
+episode = ExtResource("2_dmb0t")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Characters" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainerTextBox" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextBox" parent="MarginContainerTextBox" instance=ExtResource("3_hucy4")]
+layout_mode = 2
+size_flags_horizontal = 1
+
+[node name="EpisodeName" parent="." instance=ExtResource("4_kv2re")]
+layout_mode = 0
+offset_right = 215.0
+offset_bottom = 59.0
+
+[node name="BGM" type="AudioStreamPlayer" parent="."]

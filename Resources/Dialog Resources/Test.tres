@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="DialogResource" load_steps=6 format=3 uid="uid://d3jb3o2mdl0m1"]
+
+[ext_resource type="Script" uid="uid://ceocnji7crsou" path="res://Scripts/Resource Classes/DialogStruct.gd" id="1_3u01v"]
+[ext_resource type="Script" uid="uid://cxlqo3oyg4i5x" path="res://Scripts/Resource Classes/DialogResource.gd" id="2_apycg"]
+
+[sub_resource type="Resource" id="Resource_3u01v"]
+script = ExtResource("1_3u01v")
+line = "Guitar at2671276t17e"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_apycg"]
+script = ExtResource("1_3u01v")
+line = "Bass"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_bsbko"]
+script = ExtResource("1_3u01v")
+line = "Drum 12t12gb"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[resource]
+script = ExtResource("2_apycg")
+episode_name = "Test"
+dialogs = Array[ExtResource("1_3u01v")]([SubResource("Resource_3u01v"), SubResource("Resource_apycg"), SubResource("Resource_bsbko")])
+metadata/_custom_type_script = "uid://cxlqo3oyg4i5x"

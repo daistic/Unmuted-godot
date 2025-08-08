@@ -33,5 +33,8 @@ func finish_typing() -> void:
 	typing_timer.stop()
 	SignalHub.emit_finished_typing()
 
+func _change_speaker_label(speaker_name: String) -> void:
+	speaker_label.text = speaker_name
+
 func _on_typing_timer_timeout() -> void:
 	_type_text()

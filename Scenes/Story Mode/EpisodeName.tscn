@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://coj871r26gsk2"]
 
-[ext_resource type="Script" uid="uid://obuvcmyrs71k" path="res://Scripts/EpisodeName.gd" id="1_1nm2o"]
-[ext_resource type="LabelSettings" uid="uid://ggev7xuxhj1t" path="res://Resources/TextBoxFont.tres" id="1_bey1t"]
+[ext_resource type="Script" uid="uid://obuvcmyrs71k" path="res://Scripts/StoryMode/EpisodeName.gd" id="1_1nm2o"]
+[ext_resource type="LabelSettings" uid="uid://ggev7xuxhj1t" path="res://Resources/Fonts/TextBoxFont.tres" id="1_bey1t"]
 
 [sub_resource type="Animation" id="Animation_1nm2o"]
 length = 0.001

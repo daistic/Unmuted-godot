@@ -11,12 +11,13 @@ config_version=5
 [application]
 
 config/name="Unmuted"
-run/main_scene="res://Scenes/rythem.tscn"
+run/main_scene="res://Scenes/Ryhtem/rythem.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://Assets/Textures/Sprites/icon.svg"
 
 [autoload]
 
+Global="*res://Globals/Global.gd"
 SignalHub="*res://Globals/SignalHub.gd"
 
 [display]

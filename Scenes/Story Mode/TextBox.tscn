@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://4tficuq7g8p1"]
 
-[ext_resource type="Script" uid="uid://b7y0sf0u00deq" path="res://Scripts/TextBox.gd" id="1_ui8g0"]
-[ext_resource type="LabelSettings" uid="uid://ggev7xuxhj1t" path="res://Resources/TextBoxFont.tres" id="3_ui8g0"]
+[ext_resource type="Script" uid="uid://b7y0sf0u00deq" path="res://Scripts/Classes/TextBox.gd" id="1_ui8g0"]
+[ext_resource type="LabelSettings" uid="uid://ggev7xuxhj1t" path="res://Resources/Fonts/TextBoxFont.tres" id="3_ui8g0"]
 
 [sub_resource type="Gradient" id="Gradient_lgpka"]
 offsets = PackedFloat32Array(0.503185, 0.745223, 0.901274, 1)

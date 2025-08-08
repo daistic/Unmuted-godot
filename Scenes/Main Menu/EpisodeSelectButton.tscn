@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=3 uid="uid://df04u5e6eglok"]
+
+[ext_resource type="Texture2D" uid="uid://boxocq7htgos6" path="res://Assets/Textures/Sprites/white_texture.png" id="1_kn1g3"]
+[ext_resource type="FontFile" uid="uid://b1tyix223y7ee" path="res://Assets/Textures/Fonts/Lexend-Medium.ttf" id="2_8e7ul"]
+[ext_resource type="Script" uid="uid://c5di4o7hxhp0i" path="res://Scripts/Main Menu/EpisodeSelectButton.gd" id="2_n0p3j"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_n0p3j"]
+font = ExtResource("2_8e7ul")
+font_size = 26
+font_color = Color(0, 0, 0, 1)
+
+[node name="EpisodeButton" type="TextureButton"]
+custom_minimum_size = Vector2(250, 75)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -125.0
+offset_top = -37.5
+offset_right = 125.0
+offset_bottom = 37.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture_normal = ExtResource("1_kn1g3")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("2_n0p3j")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "Episode 1"
+label_settings = SubResource("LabelSettings_n0p3j")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
