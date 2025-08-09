@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dua5fm1rsawj1"]
+
+[ext_resource type="PackedScene" uid="uid://b3f6omeh2guk5" path="res://Scenes/Base Scenes/CharacterBase.tscn" id="1_igxu3"]
+
+[node name="Phlorova" instance=ExtResource("1_igxu3")]
+character_name = "Phlorova"

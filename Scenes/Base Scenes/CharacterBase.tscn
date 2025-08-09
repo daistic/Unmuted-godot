@@ -4,7 +4,6 @@
 [ext_resource type="Script" uid="uid://pfh8tn8qif14" path="res://Scripts/Classes/Character.gd" id="2_v8hua"]
 
 [node name="CharacterBase" type="TextureRect"]
-modulate = Color(0, 0, 0, 0.333333)
 custom_minimum_size = Vector2(50, 100)
 anchors_preset = 8
 anchor_left = 0.5

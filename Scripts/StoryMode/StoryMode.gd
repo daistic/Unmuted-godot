@@ -38,10 +38,14 @@ func _change_something() -> void:
 	var cur_dialog: DialogStruct = episode.dialogs[dialog_index]
 	
 	if cur_dialog.character_change != null:
-		_clear_characters()
 		var new_character: Character = cur_dialog.character_change.instantiate()
-		characters.add_child(new_character)
+		
 		text_box._change_speaker_label(new_character.character_name)
+		
+		if !_is_character_already_on_scene(new_character):
+			_add_character_to_scene(new_character)
+		else:
+			new_character.queue_free()
 	
 	if cur_dialog.background_change != null:
 		background.texture = cur_dialog.background_change
@@ -54,6 +58,16 @@ func _clear_characters() -> void:
 	var old_characters: Array[Node] = characters.get_children()
 	for character in old_characters:
 		character.queue_free()
+
+func _is_character_already_on_scene(new_character: Character) -> bool:
+	for character in characters.get_children():
+		if character.scene_file_path == new_character.scene_file_path:
+			return true
+	
+	return false
+
+func _add_character_to_scene(new_character: Character) -> void:
+	characters.add_child(new_character)
 
 func _on_finished_typing() -> void:
 	dialog_index += 1
