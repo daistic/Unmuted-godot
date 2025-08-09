@@ -13,162 +13,249 @@ character_change = ExtResource("2_k4al1")
 line = "..........."
 background_change = ExtResource("2_6v3rd")
 music_change = ExtResource("3_6v3rd")
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_ryhp3"]
 script = ExtResource("1_kubyp")
 line = "(pentas seni akhir tahun kah)"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_vkyc6"]
 script = ExtResource("1_kubyp")
 line = "(orang sepertiku tidak mungkin bisa menelan keramaian jika tampil, bahkan jika kemampuan bukan masalah)"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_b2dr2"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("4_4xwa4")
 line = "*tepuk pundak Amel"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_c1n20"]
 script = ExtResource("1_kubyp")
 line = "poster pentas seni kah?"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_pkidu"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("2_k4al1")
 line = "yup"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_xghk7"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("4_4xwa4")
 line = "Kamu pernah main gitar kan?"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_6rffw"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("2_k4al1")
 line = "yup"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_vf2ng"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("4_4xwa4")
 line = "Luang kan?"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_r1yv0"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("2_k4al1")
 line = "yup"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_bx4yh"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("4_4xwa4")
 line = "kan aku pengen ikut, tapi ga ada kelompok"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_31i8k"]
 script = ExtResource("1_kubyp")
 line = "kan kamu pernah main gitar dan juga luang"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_dmlgr"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("2_k4al1")
 line = "(ini mah pengen ngajak aku ikutan)"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_uytq7"]
 script = ExtResource("1_kubyp")
 line = "pengen aku ikut kah?"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_dqr81"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("4_4xwa4")
 line = "yup"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_uf5jq"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("2_k4al1")
 line = "udah lama ga main gitar, aman?"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_jcba1"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("4_4xwa4")
 line = "yup"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_1ryha"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("2_k4al1")
 line = "anggota lain kepikir kan?"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_p7yys"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("4_4xwa4")
 line = "yup, ada satu, tinggal vokalisnya belum"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_fbcjm"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("2_k4al1")
 line = "kita coba cari aja siapa tahu"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_ptk0l"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("4_4xwa4")
 line = "yup, thank you amel"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_u3ecn"]
 script = ExtResource("1_kubyp")
 character_change = ExtResource("2_k4al1")
 line = "(cabut dia)"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_7qbfn"]
 script = ExtResource("1_kubyp")
 line = "(Laven dan musik emang ga bisa dipisahkan)"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_vwjti"]
 script = ExtResource("1_kubyp")
 line = "(dia bilang musik adalah hidupku, musik adalah nyawa,musik adalah diriku)"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_fdchi"]
 script = ExtResource("1_kubyp")
 line = "(belajar gitar memang lumayan tapi aku lebih khawatir tampilnya)"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_ymbht"]
 script = ExtResource("1_kubyp")
 line = "(aku tidak tahu apa yang akan mereka pikirkan)"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_moc03"]
 script = ExtResource("1_kubyp")
 line = "(jika aku melakukan kesalahan)"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_65qri"]
 script = ExtResource("1_kubyp")
 line = "(jika kemampuanku tidak cukup)"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [sub_resource type="Resource" id="Resource_ctqd1"]
 script = ExtResource("1_kubyp")
 line = "(....oh, bel kelas)"
+is_character_clearer = false
+is_naration = false
+is_all = false
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 
 [resource]

@@ -1,6 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://b6vv43vlwdvc4"]
+[gd_scene load_steps=6 format=3 uid="uid://b6vv43vlwdvc4"]
 
+[ext_resource type="PackedScene" uid="uid://d3rwvhw71igvg" path="res://Scenes/Characters/Amel.tscn" id="1_icfkg"]
+[ext_resource type="Texture2D" uid="uid://5erh8vjvqkj3" path="res://Assets/Textures/Sprites/Backgrounds/Stage.jpg" id="1_rgre6"]
 [ext_resource type="PackedScene" uid="uid://df04u5e6eglok" path="res://Scenes/Main Menu/EpisodeSelectButton.tscn" id="1_tt5f1"]
+[ext_resource type="FontFile" uid="uid://b1tyix223y7ee" path="res://Assets/Textures/Fonts/Lexend-Medium.ttf" id="2_7x5ku"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_k18g8"]
+font = ExtResource("2_7x5ku")
+font_size = 64
+font_color = Color(0, 0, 0, 1)
+outline_size = 12
+outline_color = Color(0.949805, 1, 0.636093, 1)
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -10,6 +20,40 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 1
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_rgre6")
+expand_mode = 3
+
+[node name="MarginContainer2" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 200
+theme_override_constants/margin_top = 100
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer2"]
+layout_mode = 2
+theme_override_constants/separation = -100
+
+[node name="Label" type="Label" parent="MarginContainer2/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Unmuted"
+label_settings = SubResource("LabelSettings_k18g8")
+
+[node name="Amel" parent="MarginContainer2/VBoxContainer" instance=ExtResource("1_icfkg")]
+layout_mode = 2
+size_flags_horizontal = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -67,3 +111,6 @@ episode_data = 7
 [node name="EpisodeButton9" parent="MarginContainer/VScrollBar/VBoxContainer" instance=ExtResource("1_tt5f1")]
 layout_mode = 2
 episode_data = 8
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+autoplay = true

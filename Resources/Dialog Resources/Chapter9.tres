@@ -1,0 +1,131 @@
+[gd_resource type="Resource" script_class="DialogResource" load_steps=23 format=3 uid="uid://c8ufrn1q7geyu"]
+
+[ext_resource type="Script" uid="uid://ceocnji7crsou" path="res://Scripts/Resource Classes/DialogStruct.gd" id="1_65iq2"]
+[ext_resource type="Script" uid="uid://cxlqo3oyg4i5x" path="res://Scripts/Resource Classes/DialogResource.gd" id="2_4w5js"]
+[ext_resource type="Texture2D" uid="uid://cm4ff4pyk1wnm" path="res://Assets/Textures/Sprites/Backgrounds/Studio musik.png" id="2_huf05"]
+[ext_resource type="AudioStream" uid="uid://bay2pf4gqdtsc" path="res://Assets/Audio/Ost dialog (1) (1).mp3" id="3_48hi7"]
+[ext_resource type="PackedScene" uid="uid://d3rwvhw71igvg" path="res://Scenes/Characters/Amel.tscn" id="4_8pvpy"]
+[ext_resource type="PackedScene" uid="uid://2626qv3maxas" path="res://Scenes/Characters/Lavendria.tscn" id="5_p0bvd"]
+[ext_resource type="PackedScene" uid="uid://dua5fm1rsawj1" path="res://Scenes/Characters/Phlorova.tscn" id="6_8pvpy"]
+[ext_resource type="PackedScene" uid="uid://dgab4jwai1fuc" path="res://Scenes/Characters/Furina.tscn" id="7_p0bvd"]
+[ext_resource type="PackedScene" uid="uid://cydsxye3dgpxw" path="res://Scenes/Story Mode/Concert.tscn" id="8_p0bvd"]
+
+[sub_resource type="Resource" id="Resource_q2lpj"]
+script = ExtResource("1_65iq2")
+line = "*di studio musik"
+background_change = ExtResource("2_huf05")
+music_change = ExtResource("3_48hi7")
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_psjr5"]
+script = ExtResource("1_65iq2")
+character_change = ExtResource("4_8pvpy")
+line = "tak tersangka sudah waktunya"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_8v70t"]
+script = ExtResource("1_65iq2")
+character_change = ExtResource("5_p0bvd")
+line = "* Lavendria mendekati amel dan berbisik"
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_7v5vb"]
+script = ExtResource("1_65iq2")
+character_change = ExtResource("5_p0bvd")
+line = "Amel baik-baik aja?"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_c4rrg"]
+script = ExtResource("1_65iq2")
+line = "kamu tidak suka banyak orang kan?"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_3pdbw"]
+script = ExtResource("1_65iq2")
+character_change = ExtResource("4_8pvpy")
+line = "dulu, seperti yang kamu bilang "
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_0fyt5"]
+script = ExtResource("1_65iq2")
+line = "Aku akan percaya kalian"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_0m5dr"]
+script = ExtResource("1_65iq2")
+line = "* Amel katakan dengan tersenyum"
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_tmy1g"]
+script = ExtResource("1_65iq2")
+character_change = ExtResource("6_8pvpy")
+line = "* mulailah pentas seni"
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_ktp01"]
+script = ExtResource("1_65iq2")
+character_change = ExtResource("7_p0bvd")
+line = "* dan datanglah giliran mereka"
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_kesk1"]
+script = ExtResource("1_65iq2")
+character_change = ExtResource("4_8pvpy")
+line = "Mari kita berjuang"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_db4d5"]
+script = ExtResource("1_65iq2")
+line = "yup"
+is_character_clearer = false
+is_naration = false
+is_all = true
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_p8w3k"]
+script = ExtResource("1_65iq2")
+line = "hello"
+is_character_clearer = false
+is_naration = false
+is_all = false
+cutscene_flag = ExtResource("8_p0bvd")
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[resource]
+script = ExtResource("2_4w5js")
+episode_name = "Chapter 9"
+dialogs = Array[ExtResource("1_65iq2")]([SubResource("Resource_q2lpj"), SubResource("Resource_psjr5"), SubResource("Resource_8v70t"), SubResource("Resource_7v5vb"), SubResource("Resource_c4rrg"), SubResource("Resource_3pdbw"), SubResource("Resource_0fyt5"), SubResource("Resource_0m5dr"), SubResource("Resource_tmy1g"), SubResource("Resource_ktp01"), SubResource("Resource_kesk1"), SubResource("Resource_db4d5"), SubResource("Resource_p8w3k")])
+metadata/_custom_type_script = "uid://cxlqo3oyg4i5x"

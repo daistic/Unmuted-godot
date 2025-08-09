@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="DialogResource" load_steps=20 format=3 uid="uid://bcpcjio8t1rgj"]
+
+[ext_resource type="Script" uid="uid://ceocnji7crsou" path="res://Scripts/Resource Classes/DialogStruct.gd" id="1_hm82x"]
+[ext_resource type="Texture2D" uid="uid://5erh8vjvqkj3" path="res://Assets/Textures/Sprites/Backgrounds/Stage.jpg" id="2_0g846"]
+[ext_resource type="Script" uid="uid://cxlqo3oyg4i5x" path="res://Scripts/Resource Classes/DialogResource.gd" id="2_ghwsn"]
+[ext_resource type="PackedScene" uid="uid://2626qv3maxas" path="res://Scenes/Characters/Lavendria.tscn" id="3_lgfbk"]
+[ext_resource type="AudioStream" uid="uid://bay2pf4gqdtsc" path="res://Assets/Audio/Ost dialog (1) (1).mp3" id="4_kn5jq"]
+[ext_resource type="PackedScene" uid="uid://d3rwvhw71igvg" path="res://Scenes/Characters/Amel.tscn" id="5_oudj1"]
+[ext_resource type="PackedScene" uid="uid://dua5fm1rsawj1" path="res://Scenes/Characters/Phlorova.tscn" id="6_5sg87"]
+[ext_resource type="PackedScene" uid="uid://dgab4jwai1fuc" path="res://Scenes/Characters/Furina.tscn" id="7_5uims"]
+
+[sub_resource type="Resource" id="Resource_54uwo"]
+script = ExtResource("1_hm82x")
+character_change = ExtResource("3_lgfbk")
+line = "sempurna"
+background_change = ExtResource("2_0g846")
+music_change = ExtResource("4_kn5jq")
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_7h55u"]
+script = ExtResource("1_hm82x")
+character_change = ExtResource("5_oudj1")
+line = "yup"
+is_character_clearer = false
+is_naration = false
+is_all = true
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_uuq84"]
+script = ExtResource("1_hm82x")
+character_change = ExtResource("6_5sg87")
+line = "indah"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_igfev"]
+script = ExtResource("1_hm82x")
+character_change = ExtResource("7_5uims")
+line = "yup"
+is_character_clearer = false
+is_naration = false
+is_all = true
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_dji3q"]
+script = ExtResource("1_hm82x")
+character_change = ExtResource("5_oudj1")
+line = "kita sudah bermain baik"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_1dj5n"]
+script = ExtResource("1_hm82x")
+line = "akhirnya selesai"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_0x05b"]
+script = ExtResource("1_hm82x")
+line = "meskipun bukan perjalanan yang sempurna"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_v7tt3"]
+script = ExtResource("1_hm82x")
+line = "kita terus berkembang untuk melampaui"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_646ii"]
+script = ExtResource("1_hm82x")
+line = "agar percaya satu sama lain"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_hbvbh"]
+script = ExtResource("1_hm82x")
+line = "yup"
+is_character_clearer = false
+is_naration = false
+is_all = true
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_vb1y6"]
+script = ExtResource("1_hm82x")
+character_change = ExtResource("5_oudj1")
+line = "untuk sekarang cerita berakhir disini"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[resource]
+script = ExtResource("2_ghwsn")
+episode_name = "Epilogue"
+dialogs = Array[ExtResource("1_hm82x")]([SubResource("Resource_54uwo"), SubResource("Resource_7h55u"), SubResource("Resource_uuq84"), SubResource("Resource_igfev"), SubResource("Resource_dji3q"), SubResource("Resource_1dj5n"), SubResource("Resource_0x05b"), SubResource("Resource_v7tt3"), SubResource("Resource_646ii"), SubResource("Resource_hbvbh"), SubResource("Resource_vb1y6")])
+metadata/_custom_type_script = "uid://cxlqo3oyg4i5x"

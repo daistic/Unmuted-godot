@@ -9,3 +9,4 @@ class_name DialogStruct
 @export var is_character_clearer: bool = false
 @export var is_naration: bool = false
 @export var is_all: bool = false
+@export var cutscene_flag: PackedScene

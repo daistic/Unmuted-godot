@@ -1,0 +1,433 @@
+[gd_resource type="Resource" script_class="DialogResource" load_steps=59 format=3 uid="uid://dde1o2fft4vd0"]
+
+[ext_resource type="Script" uid="uid://ceocnji7crsou" path="res://Scripts/Resource Classes/DialogStruct.gd" id="1_0ur27"]
+[ext_resource type="Script" uid="uid://cxlqo3oyg4i5x" path="res://Scripts/Resource Classes/DialogResource.gd" id="2_a0y8h"]
+[ext_resource type="Texture2D" uid="uid://cmmvtvom40g1f" path="res://Assets/Textures/Sprites/Backgrounds/Gerbang depan sekolah.png" id="2_pg3hh"]
+[ext_resource type="AudioStream" uid="uid://bay2pf4gqdtsc" path="res://Assets/Audio/Ost dialog (1) (1).mp3" id="3_3p1ww"]
+[ext_resource type="PackedScene" uid="uid://2626qv3maxas" path="res://Scenes/Characters/Lavendria.tscn" id="4_qr4g7"]
+[ext_resource type="PackedScene" uid="uid://dgab4jwai1fuc" path="res://Scenes/Characters/Furina.tscn" id="5_kcut5"]
+[ext_resource type="PackedScene" uid="uid://d3rwvhw71igvg" path="res://Scenes/Characters/Amel.tscn" id="6_s3mjp"]
+[ext_resource type="Texture2D" uid="uid://b5eti5pvmycdb" path="res://Assets/Textures/Sprites/Backgrounds/Kelas.jpg" id="7_8jyge"]
+[ext_resource type="AudioStream" uid="uid://c2pg4i4ckxiwp" path="res://Assets/Audio/Fun_4.mp3" id="8_i66c7"]
+
+[sub_resource type="Resource" id="Resource_k0085"]
+script = ExtResource("1_0ur27")
+line = "* 3 dari 4 member sudah menyatu kembali"
+background_change = ExtResource("2_pg3hh")
+music_change = ExtResource("3_3p1ww")
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_7xwnp"]
+script = ExtResource("1_0ur27")
+line = "* hanya furina yang belum ada kabar"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_kjhck"]
+script = ExtResource("1_0ur27")
+line = "* Lavendria,phrolova, dan amel yang mencari furina "
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_obyt6"]
+script = ExtResource("1_0ur27")
+line = "* menemukannya di depan sekolah"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_m5wrk"]
+script = ExtResource("1_0ur27")
+line = "* furina terlihat bersedih"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_co8wi"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("4_qr4g7")
+line = "furina"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_mef1q"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("5_kcut5")
+line = "..."
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_vyjfh"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("6_s3mjp")
+line = "apakah ada waktu?"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_txc1r"]
+script = ExtResource("1_0ur27")
+line = "ada yang perlu aku sampaikan "
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_2g45d"]
+script = ExtResource("1_0ur27")
+line = "sekali lagi band ini bisakah kembali"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_fx60v"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("5_kcut5")
+line = "itu mustahil"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_8px4d"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("6_s3mjp")
+line = "setidaknya berikan kepadaku alasannya"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_qk3j4"]
+script = ExtResource("1_0ur27")
+line = "* furina menunjuk ke ruang kelas"
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_38c2r"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("5_kcut5")
+line = "diluar akan mengganggu"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_uaxsj"]
+script = ExtResource("1_0ur27")
+line = "* mereka datang ke kelas"
+background_change = ExtResource("7_8jyge")
+music_change = ExtResource("8_i66c7")
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_jla30"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("5_kcut5")
+line = "perpecahan band yang ada diriku "
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_qfmog"]
+script = ExtResource("1_0ur27")
+line = "ini bukan pertama kalinya"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_6opay"]
+script = ExtResource("1_0ur27")
+line = "sudah banyak band bubar"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_sc8ma"]
+script = ExtResource("1_0ur27")
+line = "anggota yang kecewa"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_rrle2"]
+script = ExtResource("1_0ur27")
+line = "segalanya adalah kesalahanku"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_2to8a"]
+script = ExtResource("1_0ur27")
+line = "tidak ada penjelasan yang lain"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_x2j8i"]
+script = ExtResource("1_0ur27")
+line = "segalanya adalah kesalahanku"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_1hmm7"]
+script = ExtResource("1_0ur27")
+line = "karena aku tidak ahli"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_c70te"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("6_s3mjp")
+line = "tidak , itu tidak benar"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_s7ul1"]
+script = ExtResource("1_0ur27")
+line = "diantara kita furina kamulah terbaik"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_cbrjx"]
+script = ExtResource("1_0ur27")
+line = "bukankah begitu Laven"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_ysrps"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("4_qr4g7")
+line = "yup"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_n2qtw"]
+script = ExtResource("1_0ur27")
+line = "kemampuanmu yang terbaik disini"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_m4iuv"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("5_kcut5")
+line = "kalau begitu mengapa....  mengapa?"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_w6cjx"]
+script = ExtResource("1_0ur27")
+line = "band dimana aku berada semua gagal"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_dksfl"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("4_qr4g7")
+line = "itu karena keberuntungan"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_x5wcl"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("5_kcut5")
+line = "tidak itu karena ketidakmampuanku"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_re3pp"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("4_qr4g7")
+line = "tidak kamu orang yang ahli, percayalah"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_uqqlv"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("5_kcut5")
+line = "aku sudah tidak bisa percaya pada diriku"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_px2jm"]
+script = ExtResource("1_0ur27")
+line = "segalanya adalah kesalahanku"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_ktt13"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("4_qr4g7")
+line = "itu tidak benar, kamu tidak melakukan kesalahan "
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_xco5j"]
+script = ExtResource("1_0ur27")
+line = "jika kamu tidak mempercayai dirimu, percayalah pada diriku yang mempercayai dirimu"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_xsrn5"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("6_s3mjp")
+line = "tidak, percayalah pada kita yang mempercayai dirimu"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_lbcth"]
+script = ExtResource("1_0ur27")
+line = "bolehkan aku membuktikan kemampuanmu"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_vcbq8"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("5_kcut5")
+line = "apakah baik baik saja"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_qdhw1"]
+script = ExtResource("1_0ur27")
+line = "mempercayai kalian"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_jfluu"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("6_s3mjp")
+line = "yup"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_j2fnw"]
+script = ExtResource("1_0ur27")
+line = "kalau begitu aku tanya lagi"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_xwomo"]
+script = ExtResource("1_0ur27")
+line = "sekali lagi maukah kamu mempercayai kita"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_e6tam"]
+script = ExtResource("1_0ur27")
+line = "*amel mengulurkan tangannya"
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_48kak"]
+script = ExtResource("1_0ur27")
+line = "*furina tersenyum"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_mucll"]
+script = ExtResource("1_0ur27")
+line = "*furina mengambil tangan Amel"
+music_change = ExtResource("3_3p1ww")
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_qgx3a"]
+script = ExtResource("1_0ur27")
+character_change = ExtResource("4_qr4g7")
+line = "jadi kapan kita mulai latihan lagi?"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_cggn0"]
+script = ExtResource("1_0ur27")
+line = "* band yang terpecah menyatu kembali"
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[resource]
+script = ExtResource("2_a0y8h")
+episode_name = "Chapter 8"
+dialogs = Array[ExtResource("1_0ur27")]([SubResource("Resource_k0085"), SubResource("Resource_7xwnp"), SubResource("Resource_kjhck"), SubResource("Resource_obyt6"), SubResource("Resource_m5wrk"), SubResource("Resource_co8wi"), SubResource("Resource_mef1q"), SubResource("Resource_vyjfh"), SubResource("Resource_txc1r"), SubResource("Resource_2g45d"), SubResource("Resource_fx60v"), SubResource("Resource_8px4d"), SubResource("Resource_qk3j4"), SubResource("Resource_38c2r"), SubResource("Resource_uaxsj"), SubResource("Resource_jla30"), SubResource("Resource_qfmog"), SubResource("Resource_6opay"), SubResource("Resource_sc8ma"), SubResource("Resource_rrle2"), SubResource("Resource_2to8a"), SubResource("Resource_x2j8i"), SubResource("Resource_1hmm7"), SubResource("Resource_c70te"), SubResource("Resource_s7ul1"), SubResource("Resource_cbrjx"), SubResource("Resource_ysrps"), SubResource("Resource_n2qtw"), SubResource("Resource_m4iuv"), SubResource("Resource_w6cjx"), SubResource("Resource_dksfl"), SubResource("Resource_x5wcl"), SubResource("Resource_re3pp"), SubResource("Resource_uqqlv"), SubResource("Resource_px2jm"), SubResource("Resource_ktt13"), SubResource("Resource_xco5j"), SubResource("Resource_xsrn5"), SubResource("Resource_lbcth"), SubResource("Resource_vcbq8"), SubResource("Resource_qdhw1"), SubResource("Resource_jfluu"), SubResource("Resource_j2fnw"), SubResource("Resource_xwomo"), SubResource("Resource_e6tam"), SubResource("Resource_48kak"), SubResource("Resource_mucll"), SubResource("Resource_qgx3a"), SubResource("Resource_cggn0")])
+metadata/_custom_type_script = "uid://cxlqo3oyg4i5x"
