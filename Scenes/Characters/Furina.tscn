@@ -1,6 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://dgab4jwai1fuc"]
+[gd_scene load_steps=3 format=3 uid="uid://dgab4jwai1fuc"]
 
 [ext_resource type="PackedScene" uid="uid://b3f6omeh2guk5" path="res://Scenes/Base Scenes/CharacterBase.tscn" id="1_ya8i3"]
+[ext_resource type="Texture2D" uid="uid://yq5giqy7nkw8" path="res://Assets/Textures/Sprites/Characters/Furina.png" id="2_2p6gg"]
 
-[node name="Lavendria" instance=ExtResource("1_ya8i3")]
+[node name="Furina" instance=ExtResource("1_ya8i3")]
+custom_minimum_size = Vector2(300, 450)
+offset_left = -150.0
+offset_top = -225.0
+offset_right = 150.0
+offset_bottom = 225.0
+pivot_offset = Vector2(150, 225)
+texture = ExtResource("2_2p6gg")
 character_name = "Furina"

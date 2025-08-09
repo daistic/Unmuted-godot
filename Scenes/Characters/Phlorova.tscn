@@ -1,6 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://dua5fm1rsawj1"]
+[gd_scene load_steps=3 format=3 uid="uid://dua5fm1rsawj1"]
 
 [ext_resource type="PackedScene" uid="uid://b3f6omeh2guk5" path="res://Scenes/Base Scenes/CharacterBase.tscn" id="1_igxu3"]
+[ext_resource type="Texture2D" uid="uid://br2s00cf5j4yh" path="res://Assets/Textures/Sprites/Characters/Phrolova.png" id="2_x61ry"]
 
 [node name="Phlorova" instance=ExtResource("1_igxu3")]
+custom_minimum_size = Vector2(300, 325)
+offset_left = -150.0
+offset_top = -162.5
+offset_right = 150.0
+offset_bottom = 162.5
+pivot_offset = Vector2(150, 162.5)
+texture = ExtResource("2_x61ry")
 character_name = "Phlorova"

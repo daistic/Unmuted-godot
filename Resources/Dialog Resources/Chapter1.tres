@@ -1,7 +1,8 @@
-[gd_resource type="Resource" script_class="DialogResource" load_steps=35 format=3 uid="uid://dkvbiw8nqsyjb"]
+[gd_resource type="Resource" script_class="DialogResource" load_steps=36 format=3 uid="uid://dkvbiw8nqsyjb"]
 
 [ext_resource type="Script" uid="uid://ceocnji7crsou" path="res://Scripts/Resource Classes/DialogStruct.gd" id="1_kubyp"]
 [ext_resource type="Script" uid="uid://cxlqo3oyg4i5x" path="res://Scripts/Resource Classes/DialogResource.gd" id="2_3c61x"]
+[ext_resource type="Texture2D" uid="uid://b5eti5pvmycdb" path="res://Assets/Textures/Sprites/Backgrounds/Kelas.jpg" id="2_6v3rd"]
 [ext_resource type="PackedScene" uid="uid://d3rwvhw71igvg" path="res://Scenes/Characters/Amel.tscn" id="2_k4al1"]
 [ext_resource type="AudioStream" uid="uid://bay2pf4gqdtsc" path="res://Assets/Audio/Ost dialog (1) (1).mp3" id="3_6v3rd"]
 [ext_resource type="PackedScene" uid="uid://2626qv3maxas" path="res://Scenes/Characters/Lavendria.tscn" id="4_4xwa4"]
@@ -10,6 +11,7 @@
 script = ExtResource("1_kubyp")
 character_change = ExtResource("2_k4al1")
 line = "..........."
+background_change = ExtResource("2_6v3rd")
 music_change = ExtResource("3_6v3rd")
 metadata/_custom_type_script = "uid://ceocnji7crsou"
 

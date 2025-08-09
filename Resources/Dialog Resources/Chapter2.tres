@@ -1,0 +1,250 @@
+[gd_resource type="Resource" script_class="DialogResource" load_steps=43 format=3 uid="uid://4aa8umct6o1v"]
+
+[ext_resource type="Script" uid="uid://ceocnji7crsou" path="res://Scripts/Resource Classes/DialogStruct.gd" id="1_cd66r"]
+[ext_resource type="Texture2D" uid="uid://cmmvtvom40g1f" path="res://Assets/Textures/Sprites/Backgrounds/Gerbang depan sekolah.png" id="2_52i81"]
+[ext_resource type="Script" uid="uid://cxlqo3oyg4i5x" path="res://Scripts/Resource Classes/DialogResource.gd" id="2_c130f"]
+[ext_resource type="PackedScene" uid="uid://d3rwvhw71igvg" path="res://Scenes/Characters/Amel.tscn" id="3_n6cbw"]
+[ext_resource type="AudioStream" uid="uid://bay2pf4gqdtsc" path="res://Assets/Audio/Ost dialog (1) (1).mp3" id="4_7h6ld"]
+[ext_resource type="PackedScene" uid="uid://2626qv3maxas" path="res://Scenes/Characters/Lavendria.tscn" id="5_jkmn3"]
+[ext_resource type="Texture2D" uid="uid://b5eti5pvmycdb" path="res://Assets/Textures/Sprites/Backgrounds/Kelas.jpg" id="6_dupni"]
+[ext_resource type="PackedScene" uid="uid://dua5fm1rsawj1" path="res://Scenes/Characters/Phlorova.tscn" id="7_7r8j5"]
+
+[sub_resource type="Resource" id="Resource_w8skc"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "...."
+background_change = ExtResource("2_52i81")
+music_change = ExtResource("4_7h6ld")
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_gf8st"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("5_jkmn3")
+line = "kenapa?"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_1olaa"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "barang ketinggalan "
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_b7gkh"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("5_jkmn3")
+line = "kutunggu disini kah?"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_ym807"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "yup"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_kq3h3"]
+script = ExtResource("1_cd66r")
+line = "..."
+background_change = ExtResource("6_dupni")
+is_character_clearer = true
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_cmmpg"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("7_7r8j5")
+line = "*la la la la"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_rsigk"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "(suaranya merdu sekali, siapa ini yang sedang bernyanyi?)"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_j8vkl"]
+script = ExtResource("1_cd66r")
+line = "suaramu indah"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_l21ui"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("7_7r8j5")
+line = "thank you"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_gaiei"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "suka nyanyi kah?"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_wfwd4"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("7_7r8j5")
+line = "cuma buat seneng-seneng aja"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_bmefu"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "kita ikut pentas seni perlu satu orang lagi mau ikut ga?"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_yvfe5"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("7_7r8j5")
+line = "..."
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_tw1kd"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "amel lagi ngapain? lumayan lama"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_4tj6e"]
+script = ExtResource("1_cd66r")
+line = "..."
+background_change = ExtResource("2_52i81")
+is_character_clearer = true
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_gpbq2"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("5_jkmn3")
+line = "amel lagi ngapain? lumayan lama"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_a6a32"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "aku menemukan calon vokalis? barusan kuajak"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_t5kcp"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("5_jkmn3")
+line = "jadi aman?"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_j1x0t"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("7_7r8j5")
+line = "aku hanya nyanyi sendiri"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_gt7w1"]
+script = ExtResource("1_cd66r")
+line = "gak yakin"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_gmhw0"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("5_jkmn3")
+line = "boleh coba nyanyi?"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_7ywlq"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("7_7r8j5")
+line = "*phrolova nyayi"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_4jugm"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "gimana bagus kan"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_sia2r"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("5_jkmn3")
+line = "terdapat kesalahan tapi bagus"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_843o8"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "jadi gimana mau ikut? aku juga dah lama ga main gitar"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_s772m"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("7_7r8j5")
+line = "ga yakin"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_pyr6v"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "tenang kita ada 2 ahli di tim Lavendria sama furina "
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_mcl17"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("7_7r8j5")
+line = "boleh"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_s1ejg"]
+script = ExtResource("1_cd66r")
+character_change = ExtResource("3_n6cbw")
+line = "(jadi tim sudah terbentuk)"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_b6ctr"]
+script = ExtResource("1_cd66r")
+line = "(tidak tahu apa yang akan terjadi kedepannya)"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_ujj14"]
+script = ExtResource("1_cd66r")
+line = "(moga tidak ada masalah)"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_hsyno"]
+script = ExtResource("1_cd66r")
+line = "(laven kalo tentang musik emang sulit di nego)"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_tp37e"]
+script = ExtResource("1_cd66r")
+line = "(oh, furina itu temen Laven di beberapa band)"
+is_character_clearer = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[resource]
+script = ExtResource("2_c130f")
+episode_name = "Chapter 2"
+dialogs = Array[ExtResource("1_cd66r")]([SubResource("Resource_w8skc"), SubResource("Resource_gf8st"), SubResource("Resource_1olaa"), SubResource("Resource_b7gkh"), SubResource("Resource_ym807"), SubResource("Resource_kq3h3"), SubResource("Resource_cmmpg"), SubResource("Resource_rsigk"), SubResource("Resource_j8vkl"), SubResource("Resource_l21ui"), SubResource("Resource_gaiei"), SubResource("Resource_wfwd4"), SubResource("Resource_bmefu"), SubResource("Resource_yvfe5"), SubResource("Resource_tw1kd"), SubResource("Resource_4tj6e"), SubResource("Resource_gpbq2"), SubResource("Resource_a6a32"), SubResource("Resource_t5kcp"), SubResource("Resource_j1x0t"), SubResource("Resource_gt7w1"), SubResource("Resource_gmhw0"), SubResource("Resource_7ywlq"), SubResource("Resource_4jugm"), SubResource("Resource_sia2r"), SubResource("Resource_843o8"), SubResource("Resource_s772m"), SubResource("Resource_pyr6v"), SubResource("Resource_mcl17"), SubResource("Resource_s1ejg"), SubResource("Resource_b6ctr"), SubResource("Resource_ujj14"), SubResource("Resource_hsyno"), SubResource("Resource_tp37e")])
+metadata/_custom_type_script = "uid://cxlqo3oyg4i5x"

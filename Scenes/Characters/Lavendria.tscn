@@ -1,6 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://2626qv3maxas"]
+[gd_scene load_steps=3 format=3 uid="uid://2626qv3maxas"]
 
 [ext_resource type="PackedScene" uid="uid://b3f6omeh2guk5" path="res://Scenes/Base Scenes/CharacterBase.tscn" id="1_o6pj3"]
+[ext_resource type="Texture2D" uid="uid://b7jnv3hvdcbtj" path="res://Assets/Textures/Sprites/Characters/Laven.png" id="2_vs4wd"]
 
 [node name="Lavendria" instance=ExtResource("1_o6pj3")]
+custom_minimum_size = Vector2(300, 325)
+offset_left = -150.0
+offset_top = -162.5
+offset_right = 150.0
+offset_bottom = 162.5
+pivot_offset = Vector2(150, 162.5)
+texture = ExtResource("2_vs4wd")
 character_name = "Lavendria"

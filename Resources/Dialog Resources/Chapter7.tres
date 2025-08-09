@@ -1,0 +1,321 @@
+[gd_resource type="Resource" script_class="DialogResource" load_steps=46 format=3 uid="uid://gt0qpl7j6hsh"]
+
+[ext_resource type="Script" uid="uid://ceocnji7crsou" path="res://Scripts/Resource Classes/DialogStruct.gd" id="1_umbcd"]
+[ext_resource type="Texture2D" uid="uid://crghrc0us2r3j" path="res://Assets/Textures/Sprites/Backgrounds/depan kamar phrolo.png" id="2_q3ihh"]
+[ext_resource type="Script" uid="uid://cxlqo3oyg4i5x" path="res://Scripts/Resource Classes/DialogResource.gd" id="2_qlepd"]
+[ext_resource type="AudioStream" uid="uid://bay2pf4gqdtsc" path="res://Assets/Audio/Ost dialog (1) (1).mp3" id="3_mwis5"]
+[ext_resource type="PackedScene" uid="uid://2626qv3maxas" path="res://Scenes/Characters/Lavendria.tscn" id="4_jeepk"]
+[ext_resource type="Texture2D" uid="uid://cvvaridf7p2ja" path="res://Assets/Textures/Sprites/Backgrounds/Kamar phrolo.png" id="5_2fhf0"]
+[ext_resource type="AudioStream" uid="uid://c2pg4i4ckxiwp" path="res://Assets/Audio/Fun_4.mp3" id="5_mwis5"]
+[ext_resource type="PackedScene" uid="uid://dua5fm1rsawj1" path="res://Scenes/Characters/Phlorova.tscn" id="6_lhtl3"]
+
+[sub_resource type="Resource" id="Resource_eeq4q"]
+script = ExtResource("1_umbcd")
+line = "*di sekolah amel dan lavendria terus mencari phrolova namun mereka tidak menemukannya"
+background_change = ExtResource("2_q3ihh")
+music_change = ExtResource("3_mwis5")
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_j8huo"]
+script = ExtResource("1_umbcd")
+line = "*hingga pada akhirnya mereka mendatangi rumah phrolova"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_6t3vw"]
+script = ExtResource("1_umbcd")
+line = "* mereka berhasil masuk rumah"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_rj0px"]
+script = ExtResource("1_umbcd")
+line = "* phrolova menolak untuk melihat mereka"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_rx2p2"]
+script = ExtResource("1_umbcd")
+line = "*sehingga mereka berdiri di depan pintu kamar phrolova "
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_v405r"]
+script = ExtResource("1_umbcd")
+character_change = ExtResource("4_jeepk")
+line = "phrolova aku tidak tahu apakah kamu mendengar"
+music_change = ExtResource("5_mwis5")
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_3cqo8"]
+script = ExtResource("1_umbcd")
+line = "tapi aku datang kesini untuk meminta maaf dan sekali lagi ingin mangajakmu kembali"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_q7avy"]
+script = ExtResource("1_umbcd")
+line = "* tanpa jawaban pintu terbuka dan phrolova mempersilahkan mereka masuk"
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_bstti"]
+script = ExtResource("1_umbcd")
+character_change = ExtResource("6_lhtl3")
+line = "bukan hakku untuk menerima"
+background_change = ExtResource("5_2fhf0")
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_ce6n7"]
+script = ExtResource("1_umbcd")
+line = "karena aku bukan phrolova"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_67onq"]
+script = ExtResource("1_umbcd")
+line = "masa lalu phrolova dan diriku"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_3yjd8"]
+script = ExtResource("1_umbcd")
+line = "sejak kecil phrolova"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_3c4v5"]
+script = ExtResource("1_umbcd")
+line = "ia merasa jika dirinya harus sempurna"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_fqkp5"]
+script = ExtResource("1_umbcd")
+line = "tanpa kesempurnaan maka ia tak berharga"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_848j6"]
+script = ExtResource("1_umbcd")
+line = "untuknya yang tak mampu menanggung"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_b4c5r"]
+script = ExtResource("1_umbcd")
+line = "dirinya yang tidak sempurna"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_n0rug"]
+script = ExtResource("1_umbcd")
+line = "dirinya yang merasa tak berharga"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_a6r88"]
+script = ExtResource("1_umbcd")
+line = "aku menggantikannya"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_b0281"]
+script = ExtResource("1_umbcd")
+line = "Lavendria berikan aku jawabanmu"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_u5ik2"]
+script = ExtResource("1_umbcd")
+line = "apakah ada yang sempurna?"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_xqxfm"]
+script = ExtResource("1_umbcd")
+line = "adakah harga di sesuatu yang tak sempurna?"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_8t8rk"]
+script = ExtResource("1_umbcd")
+line = "sempurna apa itu?"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_fy6gj"]
+script = ExtResource("1_umbcd")
+character_change = ExtResource("4_jeepk")
+line = "apakah kesempurnaan itu ada bukanlah sesuatu yang aku ketahui"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_42a0r"]
+script = ExtResource("1_umbcd")
+line = "tapi bagiku kesempurnaan itu adalah paradox"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_r34j4"]
+script = ExtResource("1_umbcd")
+line = "jika sesuatu sempurna maka bisakah mereka berkembang"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_6tml2"]
+script = ExtResource("1_umbcd")
+line = "bukankah kemampuan berkembang merupakan suatu kesempurnaan itu sendiri"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_sjb7f"]
+script = ExtResource("1_umbcd")
+line = "setelah berbicara dengan Amel"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_eaxfn"]
+script = ExtResource("1_umbcd")
+line = "aku menyadari sesuatu "
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_g3214"]
+script = ExtResource("1_umbcd")
+line = "yang terpenting bukanlah bukanlah menjadi sempurna "
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_o0e5m"]
+script = ExtResource("1_umbcd")
+line = "tapi keinginan meraihnya "
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_isst7"]
+script = ExtResource("1_umbcd")
+line = "keinginan untuk berkembang "
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_fac75"]
+script = ExtResource("1_umbcd")
+line = "dan tekad serta usaha yang dilakukan "
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_68j6g"]
+script = ExtResource("1_umbcd")
+line = "itulah kesempurnaan sebenarnya"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_puw2m"]
+script = ExtResource("1_umbcd")
+character_change = ExtResource("6_lhtl3")
+line = "…"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_wjyhd"]
+script = ExtResource("1_umbcd")
+line = "phrolova akankah kau bernyanyi kembali untuk kita"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_bovaa"]
+script = ExtResource("1_umbcd")
+line = "*mendengar itu phrolova tersenyum dan  memeluk Lavendria sebelum menggatakan"
+is_character_clearer = false
+is_naration = true
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_brj0u"]
+script = ExtResource("1_umbcd")
+character_change = ExtResource("6_lhtl3")
+line = "iya"
+is_character_clearer = false
+is_naration = false
+is_all = false
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[resource]
+script = ExtResource("2_qlepd")
+episode_name = "Chapter 7"
+dialogs = Array[ExtResource("1_umbcd")]([SubResource("Resource_eeq4q"), SubResource("Resource_j8huo"), SubResource("Resource_6t3vw"), SubResource("Resource_rj0px"), SubResource("Resource_rx2p2"), SubResource("Resource_v405r"), SubResource("Resource_3cqo8"), SubResource("Resource_q7avy"), SubResource("Resource_bstti"), SubResource("Resource_ce6n7"), SubResource("Resource_67onq"), SubResource("Resource_3yjd8"), SubResource("Resource_3c4v5"), SubResource("Resource_fqkp5"), SubResource("Resource_848j6"), SubResource("Resource_b4c5r"), SubResource("Resource_n0rug"), SubResource("Resource_a6r88"), SubResource("Resource_b0281"), SubResource("Resource_u5ik2"), SubResource("Resource_xqxfm"), SubResource("Resource_8t8rk"), SubResource("Resource_fy6gj"), SubResource("Resource_42a0r"), SubResource("Resource_r34j4"), SubResource("Resource_6tml2"), SubResource("Resource_sjb7f"), SubResource("Resource_eaxfn"), SubResource("Resource_g3214"), SubResource("Resource_o0e5m"), SubResource("Resource_isst7"), SubResource("Resource_fac75"), SubResource("Resource_68j6g"), SubResource("Resource_puw2m"), SubResource("Resource_wjyhd"), SubResource("Resource_bovaa"), SubResource("Resource_brj0u")])
+metadata/_custom_type_script = "uid://cxlqo3oyg4i5x"

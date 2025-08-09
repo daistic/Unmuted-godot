@@ -1,7 +1,7 @@
 extends Control
 
 @onready var text_box: TextBox = $MarginContainerTextBox/TextBox
-@onready var characters: Control = $Characters
+@onready var characters: Control = $MarginContainer/Characters
 @onready var background: TextureRect = $Background
 @onready var bgm: AudioStreamPlayer = $BGM
 
@@ -54,6 +54,15 @@ func _change_something() -> void:
 	if cur_dialog.music_change != null:
 		bgm.stream = cur_dialog.music_change
 		bgm.play()
+	
+	if cur_dialog.is_character_clearer:
+		_clear_characters()
+	
+	if cur_dialog.is_naration:
+		text_box._change_speaker_label("")
+	
+	if cur_dialog.is_all:
+		text_box._change_speaker_label("all")
 
 func _clear_characters() -> void:
 	var old_characters: Array[Node] = characters.get_children()

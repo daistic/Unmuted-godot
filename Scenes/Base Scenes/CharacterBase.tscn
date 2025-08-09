@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b3f6omeh2guk5"]
 
-[ext_resource type="Texture2D" uid="uid://cx6bl636xyghw" path="res://Assets/Textures/Sprites/Female Sprite by Sutemo.jpg" id="1_od4xh"]
+[ext_resource type="Texture2D" uid="uid://cx6bl636xyghw" path="res://Assets/Textures/Sprites/Characters/Female Sprite by Sutemo.jpg" id="1_od4xh"]
 [ext_resource type="Script" uid="uid://pfh8tn8qif14" path="res://Scripts/Classes/Character.gd" id="2_v8hua"]
 
 [node name="CharacterBase" type="TextureRect"]
@@ -16,7 +16,6 @@ offset_right = 505.5
 offset_bottom = 572.5
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(0.25, 0.25)
 pivot_offset = Vector2(505, 572.5)
 size_flags_horizontal = 6
 size_flags_vertical = 6
