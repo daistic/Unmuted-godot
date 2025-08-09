@@ -15,7 +15,7 @@ enum EPISODE {
 var playing_episode: DialogResource
 
 const EPISODE_LIST: Array[DialogResource] = [
-	
+	preload("res://Resources/Dialog Resources/Chapter1.tres")
 ]
 
 const STORY_MODE = preload("res://Scenes/Story Mode/StoryMode.tscn")

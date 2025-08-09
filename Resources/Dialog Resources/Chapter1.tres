@@ -1,0 +1,176 @@
+[gd_resource type="Resource" script_class="DialogResource" load_steps=35 format=3 uid="uid://dkvbiw8nqsyjb"]
+
+[ext_resource type="Script" uid="uid://ceocnji7crsou" path="res://Scripts/Resource Classes/DialogStruct.gd" id="1_kubyp"]
+[ext_resource type="Script" uid="uid://cxlqo3oyg4i5x" path="res://Scripts/Resource Classes/DialogResource.gd" id="2_3c61x"]
+[ext_resource type="PackedScene" uid="uid://d3rwvhw71igvg" path="res://Scenes/Characters/Amel.tscn" id="2_k4al1"]
+[ext_resource type="AudioStream" uid="uid://bay2pf4gqdtsc" path="res://Assets/Audio/Ost dialog (1) (1).mp3" id="3_6v3rd"]
+[ext_resource type="PackedScene" uid="uid://2626qv3maxas" path="res://Scenes/Characters/Lavendria.tscn" id="4_4xwa4"]
+
+[sub_resource type="Resource" id="Resource_2h568"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("2_k4al1")
+line = "..........."
+music_change = ExtResource("3_6v3rd")
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_ryhp3"]
+script = ExtResource("1_kubyp")
+line = "(pentas seni akhir tahun kah)"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_vkyc6"]
+script = ExtResource("1_kubyp")
+line = "(orang sepertiku tidak mungkin bisa menelan keramaian jika tampil, bahkan jika kemampuan bukan masalah)"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_b2dr2"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("4_4xwa4")
+line = "*tepuk pundak Amel"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_c1n20"]
+script = ExtResource("1_kubyp")
+line = "poster pentas seni kah?"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_pkidu"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("2_k4al1")
+line = "yup"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_xghk7"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("4_4xwa4")
+line = "Kamu pernah main gitar kan?"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_6rffw"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("2_k4al1")
+line = "yup"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_vf2ng"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("4_4xwa4")
+line = "Luang kan?"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_r1yv0"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("2_k4al1")
+line = "yup"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_bx4yh"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("4_4xwa4")
+line = "kan aku pengen ikut, tapi ga ada kelompok"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_31i8k"]
+script = ExtResource("1_kubyp")
+line = "kan kamu pernah main gitar dan juga luang"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_dmlgr"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("2_k4al1")
+line = "(ini mah pengen ngajak aku ikutan)"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_uytq7"]
+script = ExtResource("1_kubyp")
+line = "pengen aku ikut kah?"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_dqr81"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("4_4xwa4")
+line = "yup"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_uf5jq"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("2_k4al1")
+line = "udah lama ga main gitar, aman?"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_jcba1"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("4_4xwa4")
+line = "yup"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_1ryha"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("2_k4al1")
+line = "anggota lain kepikir kan?"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_p7yys"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("4_4xwa4")
+line = "yup, ada satu, tinggal vokalisnya belum"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_fbcjm"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("2_k4al1")
+line = "kita coba cari aja siapa tahu"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_ptk0l"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("4_4xwa4")
+line = "yup, thank you amel"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_u3ecn"]
+script = ExtResource("1_kubyp")
+character_change = ExtResource("2_k4al1")
+line = "(cabut dia)"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_7qbfn"]
+script = ExtResource("1_kubyp")
+line = "(Laven dan musik emang ga bisa dipisahkan)"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_vwjti"]
+script = ExtResource("1_kubyp")
+line = "(dia bilang musik adalah hidupku, musik adalah nyawa,musik adalah diriku)"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_fdchi"]
+script = ExtResource("1_kubyp")
+line = "(belajar gitar memang lumayan tapi aku lebih khawatir tampilnya)"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_ymbht"]
+script = ExtResource("1_kubyp")
+line = "(aku tidak tahu apa yang akan mereka pikirkan)"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_moc03"]
+script = ExtResource("1_kubyp")
+line = "(jika aku melakukan kesalahan)"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_65qri"]
+script = ExtResource("1_kubyp")
+line = "(jika kemampuanku tidak cukup)"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[sub_resource type="Resource" id="Resource_ctqd1"]
+script = ExtResource("1_kubyp")
+line = "(....oh, bel kelas)"
+metadata/_custom_type_script = "uid://ceocnji7crsou"
+
+[resource]
+script = ExtResource("2_3c61x")
+episode_name = "Chapter 1"
+dialogs = Array[ExtResource("1_kubyp")]([SubResource("Resource_2h568"), SubResource("Resource_ryhp3"), SubResource("Resource_vkyc6"), SubResource("Resource_b2dr2"), SubResource("Resource_c1n20"), SubResource("Resource_pkidu"), SubResource("Resource_xghk7"), SubResource("Resource_6rffw"), SubResource("Resource_vf2ng"), SubResource("Resource_r1yv0"), SubResource("Resource_bx4yh"), SubResource("Resource_31i8k"), SubResource("Resource_dmlgr"), SubResource("Resource_uytq7"), SubResource("Resource_dqr81"), SubResource("Resource_uf5jq"), SubResource("Resource_jcba1"), SubResource("Resource_1ryha"), SubResource("Resource_p7yys"), SubResource("Resource_fbcjm"), SubResource("Resource_ptk0l"), SubResource("Resource_u3ecn"), SubResource("Resource_7qbfn"), SubResource("Resource_vwjti"), SubResource("Resource_fdchi"), SubResource("Resource_ymbht"), SubResource("Resource_moc03"), SubResource("Resource_65qri"), SubResource("Resource_ctqd1")])
+metadata/_custom_type_script = "uid://cxlqo3oyg4i5x"

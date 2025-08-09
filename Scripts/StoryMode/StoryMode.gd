@@ -14,8 +14,9 @@ func _enter_tree() -> void:
 	SignalHub.finished_typing.connect(_on_finished_typing)
 
 func _ready() -> void:
-	#episode = Global.playing_episode
+	episode = Global.playing_episode
 	_advance_dialog()
+	_change_something()
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("advance_dialog"):
@@ -42,10 +43,10 @@ func _change_something() -> void:
 		
 		text_box._change_speaker_label(new_character.character_name)
 		
-		if !_is_character_already_on_scene(new_character):
-			_add_character_to_scene(new_character)
-		else:
+		if _is_character_already_on_scene(new_character):
 			new_character.queue_free()
+		else:
+			_add_character_to_scene(new_character)
 	
 	if cur_dialog.background_change != null:
 		background.texture = cur_dialog.background_change

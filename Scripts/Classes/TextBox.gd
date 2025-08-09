@@ -10,8 +10,7 @@ var text: String = " "
 var letter_index: int = 0
 var is_typing: bool = false
 
-func start_typing(new_text: String, new_speaker: String = "") -> void:
-	speaker_label.text = new_speaker
+func start_typing(new_text: String) -> void:
 	text = new_text
 	line_label.text = ""
 	letter_index = 0
