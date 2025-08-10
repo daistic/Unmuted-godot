@@ -43,3 +43,6 @@ func go_to_main_menu() -> void:
 
 func change_scene(new_scene: PackedScene) -> void:
 	get_tree().change_scene_to_packed(new_scene)
+
+func go_to_concert() -> void:
+	get_tree().change_scene_to_packed(CONCERT)

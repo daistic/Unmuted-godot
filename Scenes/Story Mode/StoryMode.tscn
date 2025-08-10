@@ -12,6 +12,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 script = ExtResource("1_6cxrn")
 episode = ExtResource("2_6cxrn")
 
@@ -23,6 +24,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 expand_mode = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
@@ -32,12 +34,14 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 
 [node name="Characters" type="HBoxContainer" parent="MarginContainer"]
 custom_minimum_size = Vector2(350, 350)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+mouse_filter = 2
 
 [node name="MarginContainerTextBox" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -46,14 +50,17 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 
 [node name="TextBox" parent="MarginContainerTextBox" instance=ExtResource("3_hucy4")]
 layout_mode = 2
 size_flags_horizontal = 1
+mouse_filter = 2
 
 [node name="EpisodeName" parent="." instance=ExtResource("4_kv2re")]
 layout_mode = 0
 offset_right = 215.0
 offset_bottom = 59.0
+mouse_filter = 2
 
 [node name="BGM" type="AudioStreamPlayer" parent="."]

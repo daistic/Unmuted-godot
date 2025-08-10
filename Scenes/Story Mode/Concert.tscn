@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://cydsxye3dgpxw"]
+[gd_scene load_steps=9 format=3 uid="uid://cydsxye3dgpxw"]
 
 [ext_resource type="Script" uid="uid://c1v24aqlcove5" path="res://Scripts/StoryMode/Concert.gd" id="1_15jjs"]
 [ext_resource type="Texture2D" uid="uid://5erh8vjvqkj3" path="res://Assets/Textures/Sprites/Backgrounds/Stage.jpg" id="2_gnwmh"]
@@ -6,14 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://2626qv3maxas" path="res://Scenes/Characters/Lavendria.tscn" id="4_rmve6"]
 [ext_resource type="PackedScene" uid="uid://dua5fm1rsawj1" path="res://Scenes/Characters/Phlorova.tscn" id="5_d3a7g"]
 [ext_resource type="PackedScene" uid="uid://dgab4jwai1fuc" path="res://Scenes/Characters/Furina.tscn" id="6_bqsyr"]
-[ext_resource type="AudioStream" uid="uid://cwscdcsctq508" path="res://Assets/Audio/JRock_3.mp3" id="7_w65xy"]
-[ext_resource type="Texture2D" uid="uid://boxocq7htgos6" path="res://Assets/Textures/Sprites/white_texture.png" id="8_w65xy"]
-[ext_resource type="FontFile" uid="uid://b1tyix223y7ee" path="res://Assets/Textures/Fonts/Lexend-Medium.ttf" id="9_rmve6"]
-
-[sub_resource type="LabelSettings" id="LabelSettings_d3a7g"]
-font = ExtResource("9_rmve6")
-font_size = 26
-font_color = Color(0, 0, 0, 1)
+[ext_resource type="PackedScene" uid="uid://dqxgy63ntr8qb" path="res://Scenes/Concert/ConcertMusic.tscn" id="7_gnwmh"]
+[ext_resource type="PackedScene" uid="uid://c2ygfnep2w2om" path="res://Scenes/Concert/SkipButton.tscn" id="8_w65xy"]
 
 [node name="Concert" type="Control"]
 layout_mode = 3
@@ -22,6 +16,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 1
 script = ExtResource("1_15jjs")
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -60,9 +55,7 @@ layout_mode = 2
 [node name="Furina" parent="HBoxContainer" instance=ExtResource("6_bqsyr")]
 layout_mode = 2
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("7_w65xy")
-autoplay = true
+[node name="AudioStreamPlayer" parent="." instance=ExtResource("7_gnwmh")]
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -73,26 +66,5 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_bottom = 50
 
-[node name="TextureButton" type="TextureButton" parent="MarginContainer"]
-custom_minimum_size = Vector2(200, 50)
+[node name="SkipButton" parent="MarginContainer" instance=ExtResource("8_w65xy")]
 layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 8
-texture_normal = ExtResource("8_w65xy")
-ignore_texture_size = true
-stretch_mode = 0
-
-[node name="Label" type="Label" parent="MarginContainer/TextureButton"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-text = "Skip"
-label_settings = SubResource("LabelSettings_d3a7g")
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[connection signal="finished" from="AudioStreamPlayer" to="." method="_on_audio_stream_player_finished"]
-[connection signal="pressed" from="MarginContainer/TextureButton" to="." method="_on_texture_button_pressed"]

@@ -65,7 +65,7 @@ func _change_something() -> void:
 		text_box._change_speaker_label("all")
 	
 	if cur_dialog.cutscene_flag != null:
-		Global.change_scene(cur_dialog.cutscene_flag)
+		Global.go_to_concert()
 
 func _clear_characters() -> void:
 	var old_characters: Array[Node] = characters.get_children()

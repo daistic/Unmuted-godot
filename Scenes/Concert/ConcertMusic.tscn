@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqxgy63ntr8qb"]
+
+[ext_resource type="AudioStream" uid="uid://cwscdcsctq508" path="res://Assets/Audio/JRock_3.mp3" id="1_cakw0"]
+[ext_resource type="Script" uid="uid://corc5g2l0kvpq" path="res://Scripts/Concert/ConcertMusic.gd" id="2_kn8xe"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_cakw0")
+autoplay = true
+script = ExtResource("2_kn8xe")
+
+[connection signal="finished" from="." to="." method="_on_finished"]
