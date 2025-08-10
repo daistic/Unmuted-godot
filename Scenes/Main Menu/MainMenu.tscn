@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://b6vv43vlwdvc4"]
+[gd_scene load_steps=7 format=3 uid="uid://b6vv43vlwdvc4"]
 
 [ext_resource type="PackedScene" uid="uid://d3rwvhw71igvg" path="res://Scenes/Characters/Amel.tscn" id="1_icfkg"]
 [ext_resource type="Texture2D" uid="uid://5erh8vjvqkj3" path="res://Assets/Textures/Sprites/Backgrounds/Stage.jpg" id="1_rgre6"]
 [ext_resource type="PackedScene" uid="uid://df04u5e6eglok" path="res://Scenes/Main Menu/EpisodeSelectButton.tscn" id="1_tt5f1"]
 [ext_resource type="FontFile" uid="uid://b1tyix223y7ee" path="res://Assets/Textures/Fonts/Lexend-Medium.ttf" id="2_7x5ku"]
+[ext_resource type="AudioStream" uid="uid://xudclqbhvumh" path="res://Assets/Audio/GabutEdited.mp3" id="5_k18g8"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_k18g8"]
 font = ExtResource("2_7x5ku")
@@ -40,18 +41,32 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_left = 200
 theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 600
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer2"]
 layout_mode = 2
 theme_override_constants/separation = -100
 
-[node name="Label" type="Label" parent="MarginContainer2/VBoxContainer"]
+[node name="Panel" type="Panel" parent="MarginContainer2/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="MarginContainer2/VBoxContainer/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 size_flags_horizontal = 0
 text = "Unmuted"
 label_settings = SubResource("LabelSettings_k18g8")
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Amel" parent="MarginContainer2/VBoxContainer" instance=ExtResource("1_icfkg")]
+custom_minimum_size = Vector2(350, 325)
 layout_mode = 2
 size_flags_horizontal = 2
 
@@ -113,4 +128,5 @@ layout_mode = 2
 episode_data = 8
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_k18g8")
 autoplay = true
