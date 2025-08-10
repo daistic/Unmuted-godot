@@ -46,3 +46,7 @@ func change_scene(new_scene: PackedScene) -> void:
 
 func go_to_concert() -> void:
 	get_tree().change_scene_to_packed(CONCERT)
+
+func _export_error(index: int) -> void:
+	change_playing_episode(EPISODE_LIST[index])
+	Global.go_to_story_mode()

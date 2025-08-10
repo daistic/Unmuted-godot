@@ -6,5 +6,4 @@ func _enter_tree() -> void:
 	SignalHub.concert_finished.connect(_go_to_epilogue)
 
 func _go_to_epilogue() -> void:
-	Global.change_playing_episode(Global.EPISODE_LIST[next_episode])
-	Global.go_to_story_mode()
+	Global._export_error(next_episode)
